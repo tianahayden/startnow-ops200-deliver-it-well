@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha tests --exit",
-    "start": "npm run build && node server/index.js"
+    "start": "node server/index.js",
+    "build": "npm run build"
   },
   "repository": {
     "type": "git",
